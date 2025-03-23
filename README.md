@@ -71,7 +71,7 @@ CREATE angular-internationalization/src/app/app.component.ts (233 bytes)
 **3.** Install the `@ngx-translate/core` and `@ngx-translate/http-loader` libraries.
 
 ```shell
-npm install @ngx-translate/core @ngx-translate/http-loader
+npm install @ngx-translate/core@14.0.0 @ngx-translate/http-loader@7.0.0
 ```
 
 **4.** Import the `HttpClient`, `HttpClientModule`, `TranslateModule`, `TranslateLoader` and `TranslateHttpLoader` modules. Change the `app.module.ts` file and add the lines as below.
